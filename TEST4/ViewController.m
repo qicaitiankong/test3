@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.view.backgroundColor = [UIColor grayColor];
     //插入排序
     NSMutableArray *arr = [[NSMutableArray alloc]initWithObjects:@"45",@"23",@"12",@"33", nil];
     for(NSInteger i = 1; i < arr.count; i ++){
