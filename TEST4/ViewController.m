@@ -17,7 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //789
-    //插入排序
     NSMutableArray *arr = [[NSMutableArray alloc]initWithObjects:@"45",@"23",@"12",@"33", nil];
     for(NSInteger i = 1; i < arr.count; i ++){
         NSString * wantchNum = [arr objectAtIndex:i];
