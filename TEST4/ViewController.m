@@ -16,13 +16,11 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    //789
     self.view.backgroundColor = [UIColor blackColor];
     self.view.backgroundColor = [UIColor blackColor];
-    
     //插入排序
     NSMutableArray *arr = [[NSMutableArray alloc]initWithObjects:@"45",@"23",@"12",@"33", nil];
-    
-    
     for(NSInteger i = 1; i < arr.count; i ++){
         NSString * wantchNum = [arr objectAtIndex:i];
         for(NSInteger j = i-1; j >= 0;j --){
